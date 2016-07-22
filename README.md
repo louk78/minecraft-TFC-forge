@@ -1,2 +1,3 @@
 # minecraft-TFC-forge
-minecraft-terrafirmacraft-Calculating forge  formula
+this program can Calculating forge formula of minecraft-terrafirmacraft
+
