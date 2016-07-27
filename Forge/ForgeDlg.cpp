@@ -399,7 +399,7 @@ void CForgeDlg::OnBnClickedBtCalculate()
 	iComboBox3Sel = m_CBAction3.GetCurSel();
 	CString csTemp;
 	GetDlgItem(IDC_ET_TARGET)->GetWindowText(csTemp);
-	iForgePoint = _wtoi(csTemp.GetBuffer());
+	iForgePoint = _ttoi(csTemp.GetBuffer());
 
 	VCTACTION::iterator iter;
 	for (iter = vctAction.begin(); iter != vctAction.end(); ++iter)
@@ -513,22 +513,22 @@ void CForgeDlg::OnBnClickedBtCaculForgePoint()
 	CString csCoordinate;
 
 	GetDlgItem(IDC_ET_SHRINK)->GetWindowText(rTemp);
-	iCalShrink = _wtoi(rTemp.GetBuffer());
+	iCalShrink = _ttoi(rTemp.GetBuffer());
 	GetDlgItem(IDC_ET_UPSET)->GetWindowText(rTemp);
-	iCalUpset = _wtoi(rTemp.GetBuffer());
+	iCalUpset = _ttoi(rTemp.GetBuffer());
 	GetDlgItem(IDC_ET_BEND)->GetWindowText(rTemp);
-	iCalBend = _wtoi(rTemp.GetBuffer());
+	iCalBend = _ttoi(rTemp.GetBuffer());
 	GetDlgItem(IDC_ET_PUNCH)->GetWindowText(rTemp);
-	iCalPunch = _wtoi(rTemp.GetBuffer());
+	iCalPunch = _ttoi(rTemp.GetBuffer());
 
 	GetDlgItem(IDC_ET_HITLIGHT)->GetWindowText(rTemp);
-	iCalHitlight = _wtoi(rTemp.GetBuffer());
+	iCalHitlight = _ttoi(rTemp.GetBuffer());
 	GetDlgItem(IDC_ET_HITMEDIUM)->GetWindowText(rTemp);
-	iCalHitmedium = _wtoi(rTemp.GetBuffer());
+	iCalHitmedium = _ttoi(rTemp.GetBuffer());
 	GetDlgItem(IDC_ET_HITHEAVY)->GetWindowText(rTemp);
-	iCalHitheavy = _wtoi(rTemp.GetBuffer());
+	iCalHitheavy = _ttoi(rTemp.GetBuffer());
 	GetDlgItem(IDC_ET_DRAW)->GetWindowText(rTemp);
-	iCalDraw = _wtoi(rTemp.GetBuffer());
+	iCalDraw = _ttoi(rTemp.GetBuffer());
 
 		if (iCalShrink)
 		{
