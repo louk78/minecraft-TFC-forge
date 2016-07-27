@@ -155,7 +155,7 @@ BOOL CForgeDlg::OnInitDialog()
 	SetIcon(m_hIcon, TRUE);			// 设置大图标
 	SetIcon(m_hIcon, FALSE);		// 设置小图标
 	CenterWindow();
-	SetWindowText(_T("Forge  1.04                           by 春光灿烂诛8戒"));
+	SetWindowText(_T("Forge  1.05                           by louk78"));
 	ShowWindow(SW_SHOW);
 
 	// TODO:  在此添加额外的初始化代码
