@@ -3,24 +3,24 @@
 //
 
 #include "stdafx.h"
-#include "Forge.h"
-#include "ForgeDlg.h"
+#include "Anvil.h"
+#include "AnvilDlg.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
 
 
-// CForgeApp
+// CAnvilApp
 
-BEGIN_MESSAGE_MAP(CForgeApp, CWinApp)
+BEGIN_MESSAGE_MAP(CAnvilApp, CWinApp)
 	ON_COMMAND(ID_HELP, &CWinApp::OnHelp)
 END_MESSAGE_MAP()
 
 
-// CForgeApp 构造
+// CAnvilApp 构造
 
-CForgeApp::CForgeApp()
+CAnvilApp::CAnvilApp()
 {
 	// 支持重新启动管理器
 	m_dwRestartManagerSupportFlags = AFX_RESTART_MANAGER_SUPPORT_RESTART;
@@ -30,14 +30,14 @@ CForgeApp::CForgeApp()
 }
 
 
-// 唯一的一个 CForgeApp 对象
+// 唯一的一个 CAnvilApp 对象
 
-CForgeApp theApp;
+CAnvilApp theApp;
 
 
-// CForgeApp 初始化
+// CAnvilApp 初始化
 
-BOOL CForgeApp::InitInstance()
+BOOL CAnvilApp::InitInstance()
 {
 	// 如果一个运行在 Windows XP 上的应用程序清单指定要
 	// 使用 ComCtl32.dll 版本 6 或更高版本来启用可视化方式，

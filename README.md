@@ -6,5 +6,5 @@ terrafirmacraft:http://wiki.terrafirmacraft.com/Main_Page
 Screenshot
 ----
 
-![image](https://github.com/louk78/minecraft-TFC-forge/blob/master/forge.PNG)
+![image](https://github.com/louk78/minecraft-TFC-forge/blob/master/Anvil.PNG)
 

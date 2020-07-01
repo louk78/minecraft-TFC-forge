@@ -14,10 +14,10 @@ Forge.vcxproj.filters
 
 Forge.h
     这是应用程序的主头文件。
-    其中包括其他项目特定的标头（包括 Resource.h），并声明 CForgeApp 应用程序类。
+    其中包括其他项目特定的标头（包括 Resource.h），并声明 CAnvilApp 应用程序类。
 
 Forge.cpp
-    这是包含应用程序类 CForgeApp 的主应用程序源文件。
+    这是包含应用程序类 CAnvilApp 的主应用程序源文件。
 
 Forge.rc
     这是程序使用的所有 Microsoft Windows 资源的列表。它包括 RES 子目录中存储的图标、位图和光标。此文件可以直接在 Microsoft Visual C++ 中进行编辑。项目资源包含在 2052 中。

@@ -3,8 +3,8 @@
 //
 
 #include "stdafx.h"
-#include "Forge.h"
-#include "ForgeDlg.h"
+#include "Anvil.h"
+#include "AnvilDlg.h"
 #include "afxdialogex.h"
 
 #ifdef _DEBUG
