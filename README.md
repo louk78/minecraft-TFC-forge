@@ -1,5 +1,5 @@
 # Minecraft-TFC-Anvil
-this program can Calculating forge formula of minecraft-terrafirmacraft
+this program can Calculating Anvil formula of minecraft-terrafirmacraft
 
 terrafirmacraft:http://wiki.terrafirmacraft.com/Main_Page
 
