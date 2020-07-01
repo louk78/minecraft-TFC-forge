@@ -121,6 +121,7 @@ BEGIN_MESSAGE_MAP(CAnvilDlg, CDialogEx)
 	ON_CBN_SELCHANGE(IDC_CB_ACTION1, &CAnvilDlg::OnCbnSelchangeCbAction1)
 	ON_BN_CLICKED(IDC_CLEANTOZERO, &CAnvilDlg::OnBnClickedCleantozero)
 	ON_WM_CLOSE()
+	ON_STN_CLICKED(IDC_STA_FORGERULE, &CAnvilDlg::OnStnClickedStaForgerule)
 END_MESSAGE_MAP()
 
 
@@ -714,4 +715,10 @@ void CAnvilDlg::OnClose()
 
 	CDialogEx::OnCancel();
 
+}
+
+
+void CAnvilDlg::OnStnClickedStaForgerule()
+{
+	// TODO: Add your control notification handler code here
 }
