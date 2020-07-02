@@ -156,8 +156,7 @@ BOOL CAnvilDlg::OnInitDialog()
 	SetIcon(m_hIcon, TRUE);			// 设置大图标
 	SetIcon(m_hIcon, FALSE);		// 设置小图标
 	CenterWindow();
-	SetWindowText(_T("Anvil  1.05                           by louk78"));
-	ShowWindow(SW_SHOW);
+	SetWindowText(_T("TerraFirmaCraft Anvil Solver              by louk78"));
 
 	// TODO:  在此添加额外的初始化代码
 	CRect rect;
@@ -570,6 +569,7 @@ void CAnvilDlg::OnBnClickedBtCaculForgePoint()
 		}
 		csCoordinate.Format(_T("%d"), iForgePoint);
 		GetDlgItem(IDC_ET_COORDINATE)->SetWindowText(csCoordinate);
+		GetDlgItem(IDC_ET_TARGET)->SetWindowText(csCoordinate);
 
 
 }
