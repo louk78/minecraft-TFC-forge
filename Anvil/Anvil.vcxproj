@@ -101,9 +101,6 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="CMyEdit.h" />
     <ClInclude Include="Anvil.h" />
     <ClInclude Include="AnvilDlg.h" />

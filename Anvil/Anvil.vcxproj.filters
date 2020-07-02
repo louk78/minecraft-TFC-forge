@@ -13,12 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="源文件\test">
-      <UniqueIdentifier>{3e585cc3-b5d7-4052-ac01-a9d42c6231d8}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -47,11 +41,11 @@
     <ClCompile Include="CMyEdit.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="AnvilDlg.cpp">
-      <Filter>源文件\test</Filter>
-    </ClCompile>
     <ClCompile Include="Anvil.cpp">
-      <Filter>源文件\test</Filter>
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnvilDlg.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
